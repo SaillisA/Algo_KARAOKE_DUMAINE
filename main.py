@@ -60,7 +60,7 @@ class Player:
         print("Le score total est de ", varTempo)
 
 
-def game():
+def game1():
     joueur1 = Player("AneTroTro")
     joueur1.ajouterScore(0, 89)
     joueur1.ajouterScore(1, 45)
@@ -75,6 +75,5 @@ def game():
     joueur1.afficherChansonPireScore()
     joueur1.moyenneScore()
     joueur1.totalScore()
+game1()
 
-
-game()
